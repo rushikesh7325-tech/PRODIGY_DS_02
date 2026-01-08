@@ -102,54 +102,36 @@ Created 6 new predictive features:
    Size 4: 53.33%
    Size 7+: 11.11%
 
-
 ## 📈 Visualizations Catalog
 
+### Complete List (7 Charts Generated)
 | File | Analysis Type | Key Insight |
 |------|---------------|-------------|
-| `survival_distribution.png` | Overall breakdown | 38% survival baseline |
-| `survival_by_gender.png` | Gender disparity | 74%F vs 19%M |
-| `survival_by_class.png` | Class gradient | 63%→47%→24% |
-| `age_analysis.png` | Age histograms | Bimodal survivor pattern |
-| `fare_analysis.png` | Fare by class | 1st class fare premium |
-| `family_size_survival.png` | Family dynamics | 2-4 member peak |
-| `correlation_heatmap.png` | Feature matrix | Top correlations |
-| `survival_by_port.png` | Port effects | C=## 📈 7 Visualizations Showcase (All Generated ✅)
+| `vis1_survival.png` | Overall breakdown | 38% survival baseline |
+| `vis2_gender.png` | Gender disparity | 74%F vs 19%M |
+| `vis3_class.png` | Class gradient | 63%→47%→24% |
+| `vis4_age.png` | Age histograms | Bimodal survivor pattern |
+| `vis5_family.png` | Family dynamics | 2-4 member peak |
+| `vis6_correlation.png` | Feature matrix | Top correlations |
+| `vis7_gender_class.png` | Gender+Class interaction | F1st=97%, M3rd=13% |
 
-### 🎯 TOP INSIGHTS - Priority Display
+### 🎯 Top Insights Showcase
+| **Gender + Class** | **Correlation Heatmap** | **Gender Disparity** |
+|--------------------|-------------------------|----------------------|
+| ![F1st=97% vs M3rd=13%](https://github.com/rushikesh7325-tech/PRODIGY_DS_02/raw/main/visualizations/vis7_gender_class.png) | ![Has_Cabin +0.317](https://github.com/rushikesh7325-tech/PRODIGY_DS_02/raw/main/visualizations/vis6_correlation.png) | ![74%F vs 19%M](https://github.com/rushikesh7325-tech/PRODIGY_DS_02/raw/main/visualizations/vis2_gender.png) |
 
-| **Gender + Class Interaction** | **Correlation Heatmap** | **Survival by Gender** |
-|--------------------------------|-------------------------|------------------------|
-| ![F1st=97% vs M3rd=13%](visualizations/gender_class_analysis.png "97% Female 1st vs 13% Male 3rd") | ![Has_Cabin +0.317](visualizations/correlation_heatmap.png "Top correlations") | ![74%F vs 19%M](visualizations/survival_by_gender.png "3.9x female advantage") |
-
-| **Family Size Impact** | **Cabin Location Effect** | **Class Survival Gradient** |
-|------------------------|---------------------------|-----------------------------|
-| ![2-4 optimal](visualizations/family_size_survival.png "Optimal family coordination") | ![67% vs 30%](visualizations/cabin_impact.png "2.2x cabin advantage") | ![63%→47%→24%](visualizations/survival_by_class.png "Class disparity") |
+| **Family Dynamics** | **Class Gradient** | **Survival Baseline** |
+|---------------------|--------------------|----------------------|
+| ![2-4 optimal](https://github.com/rushikesh7325-tech/PRODIGY_DS_02/raw/main/visualizations/vis5_family.png) | ![63%→47%→24%](https://github.com/rushikesh7325-tech/PRODIGY_DS_02/raw/main/visualizations/vis3_class.png) | ![38% Survival](https://github.com/rushikesh7325-tech/PRODIGY_DS_02/raw/main/visualizations/vis1_survival.png) |
 
 ### 📊 Overall Survival Baseline
 <div style="text-align: center;">
-    ![38% Survival](visualizations/survival_distribution.png "342/891 survived")
+    ![38% Survival](https://github.com/rushikesh7325-tech/PRODIGY_DS_02/raw/main/visualizations/vis1_survival.png "342/891 survived")
 </div>
 
+**📁 [View All Visualizations](https://github.com/rushikesh7325-tech/PRODIGY_DS_02/tree/main/visualizations)**
 
-```markdown
-## 📈 7 Key Visualizations Generated
 
-| **Gender + Class** | **Correlation Matrix** | **Gender Disparity** |
-|--------------------|----------------------|---------------------|
-|  |  |  |
-
-| **Family Dynamics** | **Cabin Impact** | **Class Gradient** |
-|-------------------|-----------------|-------------------|
-|  |  |  |
-
-<div style="text-align: center;">
-
-</div>
-55%, Q=39%, S=34% |
-| `cabin_impact.png` | Location proxy | Cabin=67% vs 30% |
-| `gender_class_analysis.png` | Interaction effects | F1st=97%, M3rd=13% |
-| `advanced_analysis.png` | 4-panel summary | Multi-factor patterns |
 
 ## 💡 Actionable Insights for Maritime Safety
 
